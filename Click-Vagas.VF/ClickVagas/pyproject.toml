@@ -1,0 +1,30 @@
+[project]
+name = "click-vagas"
+version = "1.0.1"
+description = "Gerencie vagas de estacionamento, veículos e ocupação em um app Android com dados salvos no dispositivo."
+requires-python = ">=3.14"
+authors = [
+    { name = "Artur Fagundes Dos Santos", email = "arturfagundes64@gmail.com" }
+]
+dependencies = [
+    "flet==1.0.4",
+    "qrcode"
+]
+
+[dependency-groups]
+dev = [
+    "flet-cli",
+    "flet-desktop",
+    "flet-web"
+]
+
+[tool.flet.metadata]
+title = "Click Vagas"
+
+[tool.flet]
+org = "dev.flet"
+company = "Artur Fagundes Dos Santos"
+copyright = "Copyright (C) 2026 by Artur Fagundes Dos Santos"
+
+[tool.flet.app]
+path = "."
